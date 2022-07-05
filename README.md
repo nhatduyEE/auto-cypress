@@ -6,7 +6,7 @@
 ```
 npm install typescript --save-dev
 ```
-We recommend creating a tsconfig.json inside your cypress folder with the following configuration:
+We recommend creating a `tsconfig.json` inside your cypress folder with the following configuration:
 ```
 {
   "compilerOptions": {
