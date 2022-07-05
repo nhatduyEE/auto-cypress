@@ -1,0 +1,24 @@
+{
+  "name": "auto-cypress",
+  "version": "1.0.0",
+  "description": "Cypress investigate for automation test",
+  "scripts": {
+    "open": "cypress open",
+    "all-test":"cypress run --headed ",
+    "one-test":"cypress run --headed --browser chrome --spec "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhatduyEE/auto-cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhatduyEE/auto-cypress/issues"
+  },
+  "homepage": "https://github.com/nhatduyEE/auto-cypress#readme",
+  "devDependencies": {
+    "cypress": "^10.3.0",
+    "mongodb": "^4.7.0"
+  }
+}
